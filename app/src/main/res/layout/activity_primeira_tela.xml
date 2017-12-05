@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gusta.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="527dp"
+        android:layout_height="704dp"
+        app:layout_constraintBaseline_toBaselineOf="parent"
+        app:srcCompat="@drawable/sem"
+        tools:layout_editor_absoluteX="-79dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:layout_marginTop="22dp"
+                app:srcCompat="@drawable/f" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp">
+
+            </GridLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@color/teste" />
+
+            <EditText
+                android:id="@+id/tLogin"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:theme="@style/MyEditTextTheme" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="43dp"
+                android:text="@string/senha"
+                android:textColor="@color/teste" />
+
+            <EditText
+                android:id="@+id/tSenha"
+                android:layout_width="match_parent"
+                android:layout_height="27dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@android:color/darker_gray"
+                android:theme="@style/MyEditTextTheme" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="26dp">
+
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <GridLayout
+                    android:layout_width="230dp"
+                    android:layout_height="41dp"
+                    android:layout_weight="1">
+
+                </GridLayout>
+
+                <CheckedTextView
+                    android:id="@+id/checkedTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cad"
+                    android:textColor="@color/cinza" />
+
+                <CheckedTextView
+                    android:id="@+id/checkedTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/eqms"
+                    android:textColor="@color/cinza" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/entrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="41dp"
+                    android:text="@string/entrar" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login"> Login </string>
+    <string name="senha"> Senha </string>
+    <string name="entrar"> Entrar </string>
+    <string name="eqms"> Esqueci minha senha </string>
+    <string name="cad"> Se cadastrar </string>
+    <string name="qtl"> Qual sua liga? </string>
+    <string name="bronze"> Bronze </string>
+    <string name="prata"> Prata </string>
+    <string name="ouro"> Ouro </string>
+    <string name="platina"> Platina </string>
+    <string name="diamante"> Diamante </string>
+    <string name="mestre"> Mestre </string>
+    <string name="desafiante"> Desafiante </string>
+    <string name="next"> Next </string>
+    <string name="voltar"> Voltar </string>
+    <string name="adc"> Atirador </string>
+    <string name="sup"> Suporte </string>
+    <string name="top"> Topo  </string>
+    <string name="Mid"> Meio </string>
+    <string name="jg"> Caçador </string>
+    <string name="qsl"> Qual sua lane? </string>
+    <string name="qssl"> Qual sua segunda lane? </string>
+    <string name="nsm"> Nick summoner </string>
+    <string name="suala"> Sua lane principal </string>
+    <string name="suald"> Sua lane secundária </string>
+    <string name="per"> PERFIL </string>
+    <string name="edper"> Editar perfil </string>
+    <string name="d"> Sair </string>
+    <string name="buscar"> Buscar </string>
+
+</resources>
