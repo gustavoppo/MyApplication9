@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#03070a</color>
+    <color name="colorPrimaryDark">#172d3e</color>
     <color name="colorAccent">#FF4081</color>
     <color name="cinza">#8e8e8e</color>
     <color name="teste">#ffffff</color>
-    <color name="botcol">#365c78</color>
+    <color name="botcol">#6ea4cc</color>
     <color name="bcol">#CDBE70</color>
     <color name="bcola">#c7ae25</color>
 </resources>

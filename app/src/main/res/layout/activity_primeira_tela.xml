@@ -4,27 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gusta.myapplication.MainActivity">
+    tools:context="com.example.gusta.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@drawable/sem">
 
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="527dp"
-        android:layout_height="704dp"
-        app:layout_constraintBaseline_toBaselineOf="parent"
-        app:srcCompat="@drawable/sem"
-        tools:layout_editor_absoluteX="-79dp" />
+
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
@@ -63,7 +59,9 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text=""
-                android:theme="@style/MyEditTextTheme" />
+                android:textColor="@color/teste"
+                android:theme="@style/MyEditTextTheme"
+           />
 
             <TextView
                 android:id="@+id/textView2"
@@ -76,10 +74,11 @@
             <EditText
                 android:id="@+id/tSenha"
                 android:layout_width="match_parent"
-                android:layout_height="27dp"
+                android:layout_height="38dp"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:textColor="@android:color/darker_gray"
+                android:textAllCaps="false"
+                android:textColor="@color/teste"
                 android:theme="@style/MyEditTextTheme" />
 
             <GridLayout
@@ -90,8 +89,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content">
 
                 <GridLayout
                     android:layout_width="230dp"

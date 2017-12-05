@@ -11,9 +11,12 @@
 
     <style name="MyEditTextTheme">
         <item name="colorControlNormal">#dcdcdc</item>
-        <item name="colorControlActivated">#b7b7b7</item>
+        <item name="colorControlActivated">#ffffff</item>
         <item name="colorControlHighlight">@color/accent_material_light</item>
+        <item name="android:textColorHint">#b4b4b4</item>
     </style>
+
+
 
 
 
