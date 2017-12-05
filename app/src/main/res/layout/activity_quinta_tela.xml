@@ -21,6 +21,13 @@
             tools:layout_editor_absoluteX="54dp"
             tools:layout_editor_absoluteY="0dp">
 
+            <GridLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </GridLayout>
+
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="wrap_content"
@@ -41,9 +48,15 @@
                 android:text="@string/buscar" />
         </LinearLayout>
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp">
+
+        </GridLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
@@ -78,7 +91,7 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Level 30   "
                         android:textColor="@color/botcol"
@@ -116,7 +129,7 @@
 
                 <TextView
                     android:id="@+id/textView13"
-                    android:layout_width="130dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ouro"
                     android:textColor="@color/bcola"
@@ -126,101 +139,133 @@
 
         </LinearLayout>
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suala"
+                    android:textColor="@color/botcol"
+                    tools:layout_editor_absoluteY="239dp" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="63dp"
+                    app:srcCompat="@drawable/bot"
+                    tools:layout_editor_absoluteX="82dp"
+                    tools:layout_editor_absoluteY="182dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/adc"
+                    android:textColor="@color/bcol"
+                    tools:layout_editor_absoluteX="95dp"
+                    tools:layout_editor_absoluteY="275dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suald"
+                    android:textColor="@color/botcol"
+                    tools:layout_editor_absoluteX="218dp"
+                    tools:layout_editor_absoluteY="239dp" />
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="63dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mid"
+                    tools:layout_editor_absoluteX="252dp"
+                    tools:layout_editor_absoluteY="182dp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Mid"
+                    android:textColor="@color/bcol"
+                    tools:layout_editor_absoluteX="270dp"
+                    tools:layout_editor_absoluteY="275dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_weight="1">
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <GridLayout
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            </GridLayout>
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView3"
+                android:layout_width="384dp"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:onClick="editar"
+                android:text="@string/edper"
+                android:textColor="@color/cinza"
+                tools:layout_editor_absoluteX="22dp"
+                tools:layout_editor_absoluteY="414dp" />
+
+            <CheckedTextView
+                android:id="@+id/checkedTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/d"
+                android:textColor="@color/cinza"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="414dp" />
+
+        </LinearLayout>
+
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView13"
-        android:layout_alignRight="@+id/textView13"
-        android:layout_centerVertical="true"
-        android:text="@string/suald"
-        android:textColor="@color/botcol"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="239dp" />
-
-    <CheckedTextView
-        android:id="@+id/checkedTextView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView15"
-        android:layout_alignRight="@+id/textView15"
-        android:layout_below="@+id/textView15"
-        android:onClick="editar"
-        android:text="@string/edper"
-        android:textColor="@color/cinza"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="414dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/textView14"
-        android:layout_toStartOf="@+id/textView14"
-        android:text="@string/suala"
-        android:textColor="@color/botcol"
-        tools:layout_editor_absoluteY="239dp" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_alignEnd="@+id/textView11"
-        android:layout_alignRight="@+id/textView11"
-        android:layout_below="@+id/textView11"
-        app:srcCompat="@drawable/bot"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="275dp" />
-
-    <CheckedTextView
-        android:id="@+id/checkedTextView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/checkedTextView3"
-        android:layout_alignBottom="@+id/checkedTextView3"
-        android:layout_alignEnd="@+id/textView16"
-        android:layout_alignRight="@+id/textView16"
-        android:text="@string/d"
-        android:textColor="@color/cinza"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="414dp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="53dp"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView23"
-        android:layout_alignRight="@+id/imageView23"
-        android:layout_below="@+id/imageView23"
-        android:text="@string/adc"
-        android:textColor="@color/bcol"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="338dp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView24"
-        android:layout_toLeftOf="@+id/imageView22"
-        android:layout_toStartOf="@+id/imageView22"
-        android:text="@string/Mid"
-        android:textColor="@color/bcol"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="338dp" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="63dp"
-        android:layout_height="63dp"
-        android:layout_alignTop="@+id/imageView23"
-        android:layout_toLeftOf="@+id/textView13"
-        android:layout_toStartOf="@+id/textView13"
-        app:srcCompat="@drawable/mid"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="275dp" />
 
 </android.support.constraint.ConstraintLayout>
