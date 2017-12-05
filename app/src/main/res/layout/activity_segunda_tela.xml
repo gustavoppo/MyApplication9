@@ -32,7 +32,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
             android:text="@string/qtl"
-            android:textColor="@color/botcol"
+            android:textColor="@color/bcol"
             android:textSize="30sp" />
 
         <RadioGroup

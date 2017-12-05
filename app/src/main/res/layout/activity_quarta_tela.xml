@@ -44,7 +44,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_weight="1"
                 android:text="@string/qssl"
-                android:textColor="@color/botcol"
+                android:textColor="@color/bcol"
                 android:textSize="20sp"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="78dp"

@@ -38,7 +38,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_weight="1"
                 android:text="@string/qsl"
-                android:textColor="@color/botcol"
+                android:textColor="@color/bcol"
                 android:textSize="25sp"
                 tools:layout_editor_absoluteX="112dp"
                 tools:layout_editor_absoluteY="13dp" />
