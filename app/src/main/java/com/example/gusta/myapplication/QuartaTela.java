@@ -14,11 +14,20 @@ public class QuartaTela extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quarta_tela);
+
         Bundle extras = getIntent().getExtras();
+        Bundle lanes = getIntent().getExtras();
+        Bundle lanese = getIntent().getExtras();
+
         final int liga = extras.getInt("liga");
-        final int lane = extras.getInt("lane");
+        final int lane = lanes.getInt("lane");
+        int lanesecundaria = lanese.getInt("lanesecundaria");
+
+
+
         final RadioGroup check = (RadioGroup) findViewById(R.id.radioGroup3);
         Button entrar = (Button) findViewById(R.id.next);
+
         entrar.setOnClickListener(new View.OnClickListener() {
 
             @Override

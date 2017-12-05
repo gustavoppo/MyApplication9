@@ -14,14 +14,17 @@ public class QuintaTela extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quinta_tela);
+
         Button entrar = (Button) findViewById(R.id.next);
         Bundle extras = getIntent().getExtras();
+
+
         TextView textliga = (TextView) findViewById(R.id.textView13);
         ImageView league = (ImageView) findViewById(R.id.imageView22);
+
         int liga = extras.getInt("liga");
-        int lane = extras.getInt("lane");
         int teste = R.id.bronze;
-        int lanesecundaria = extras.getInt("lanesecundaria");
+
 
         if (liga == R.id.bronze) {
             league.setImageResource(R.drawable.bronze);
@@ -53,6 +56,79 @@ public class QuintaTela extends AppCompatActivity {
 
         }
 
+        /*
+         * cogigo para a lane principal
+         */
+
+        Bundle lanes = getIntent().getExtras();
+
+        TextView textlane = (TextView) findViewById(R.id.textView15);
+        ImageView lanepric = (ImageView) findViewById(R.id.imageView23);
+
+
+        int lane = lanes.getInt("lane");
+        int teste1 = R.id.radiotop;
+
+        if (lane == R.id.radiotop) {
+            lanepric.setImageResource(R.drawable.top);
+            textlane.setText("Top");
+
+        } else if (lane == R.id.radiojg)
+
+        {
+            lanepric.setImageResource(R.drawable.jg);
+            textlane.setText("Caçador");
+
+        } else if (lane == R.id.radiomid) {
+            lanepric.setImageResource(R.drawable.mid);
+            textlane.setText("Meio");
+
+        } else if (lane == R.id.radioadc) {
+            lanepric.setImageResource(R.drawable.bot);
+            textlane.setText("Atirador");
+
+        } else if (lane == R.id.radiosup) {
+
+            lanepric.setImageResource(R.drawable.sop);
+            textlane.setText("Suporte");
+        }
+
+        /*
+         * cogigo para a lane secundaria
+         */
+
+        Bundle lanese = getIntent().getExtras();
+
+        TextView textlanes = (TextView) findViewById(R.id.textView16);
+        ImageView lanesec = (ImageView) findViewById(R.id.imageView24);
+
+        int lanesecundaria = lanese.getInt("lanesecundaria");
+        int teste2 = R.id.radiotop;
+
+        if (lanesecundaria == R.id.top1) {
+            lanesec.setImageResource(R.drawable.top);
+            textlanes.setText("Top");
+
+        } else if (lanesecundaria == R.id.jg1)
+
+        {
+            lanepric.setImageResource(R.drawable.jg);
+            textlanes.setText("Caçador");
+
+        } else if (lanesecundaria == R.id.mid1) {
+            lanesec.setImageResource(R.drawable.mid);
+            textlanes.setText("Meio");
+
+        } else if (lanesecundaria == R.id.adc1) {
+            lanesec.setImageResource(R.drawable.bot);
+            textlanes.setText("Atirador");
+
+        } else if (lanesecundaria == R.id.sup1) {
+
+            lanesec.setImageResource(R.drawable.sop);
+            textlanes.setText("Suporte");
+        }
+
         entrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,9 +140,17 @@ public class QuintaTela extends AppCompatActivity {
         });
     }
 
-    public void editar(View v ) {
+    public void sair (View c) {
+
+        Intent volt = new Intent(QuintaTela.this, MainActivity.class);
+        startActivity(volt);
+    }
+
+    public void editar(View v) {
 
         Intent edit = new Intent(QuintaTela.this, SegundaTela.class);
         startActivity(edit);
     }
+
 }
+

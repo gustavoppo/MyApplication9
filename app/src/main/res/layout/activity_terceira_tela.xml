@@ -52,6 +52,7 @@
                 android:layout_alignTop="@+id/textView6"
                 android:layout_weight="1"
                 android:drawableTint="@color/botcol"
+                android:backgroundTint="@color/bcola"
                 android:text="@string/next"
                 tools:layout_editor_absoluteX="302dp"
                 tools:layout_editor_absoluteY="13dp" />

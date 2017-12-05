@@ -60,6 +60,7 @@
                 android:layout_weight="1"
                 android:drawableTint="@color/botcol"
                 android:text="@string/next"
+                android:backgroundTint="@color/bcola"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="306dp"
                 tools:layout_editor_absoluteY="12dp" />

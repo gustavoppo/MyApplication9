@@ -18,7 +18,12 @@ public class TerceiraTela extends AppCompatActivity {
 
         Button tNext = (Button) findViewById(R.id.next);
         Bundle extras = getIntent().getExtras();
+        Bundle lanes = getIntent().getExtras();
+
         final int liga = extras.getInt("liga");
+
+        final int lane = lanes.getInt("lane");
+
         tNext.setOnClickListener(new View.OnClickListener() {
             final RadioGroup check = (RadioGroup) findViewById(R.id.radioGroup2);
 
